@@ -106,3 +106,11 @@
     background-color: rgb(224, 144, 24);
     background-size: 50px 50px;
 }
+
+body::-webkit-scrollbar{
+    width: 9px;
+}
+body::-webkit-scrollbar-thumb{
+    background:#da3c3c;
+    border-radius: 5px;
+}
